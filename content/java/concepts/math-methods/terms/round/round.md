@@ -28,8 +28,8 @@ The following example demonstrates using `.round()` to round the value 1.8 to th
 ```java
 public class Test {
   public static void main(String args[]) {
-    int n = Math.round(1.8);
-    int m = Math.round(5.2);
+    double n = Math.round(1.8);
+    double m = Math.round(5.2);
     System.out.println(n);
     System.out.println(m);
   }
